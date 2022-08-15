@@ -1,4 +1,4 @@
-# FRANDY-MUSIC-INSTRUMENT-STORE_Welcome-page
+# FRANDY-MUSIC-INSTRUMENT-STORE
 Main page is "O.M.I.S.php".
 
 For user login you can use .... to get the usernames and passwords or you can register as new member
