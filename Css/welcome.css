@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0%;
+}
+
+section {
+    height: 625px;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+}
+
+.left {
+    height: 520px;
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    float: left;
+    margin: 100px 0 0 0;
+}
+
+.left li {
+    width: 300px;
+    padding: 20px 16px;
+    margin-bottom: 25px;
+    background-color: white;
+    background: transparent;
+    background: rgba(0, 128, 0, 0.3);
+}
+
+.left li a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 300px;
+}
+
+a.first {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+/* Change the link color on hover */
+
+.left li a:hover {
+    color: rgb(61, 60, 60);
+}
+
+h1.welcome {
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: rgba(0, 128, 0, 0.3);
+    color: rgb(36, 33, 33);
+    background: transparent;
+    float: left;
+    margin-right: 0%;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.right li{
+    list-style-type: none;
+    font-size: 20px;
+    float: right;
+    font-weight: 700;
+}
+
+.right li a{
+    width: 100px;
+    display: inline-block;
+    color: #088F8F;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #89CFF0;
+    border: 1px solid #89CFF0;
+    border-radius: 5px;
+}
+.right li a:hover{
+    color: #000;
+    background-color: #fff;

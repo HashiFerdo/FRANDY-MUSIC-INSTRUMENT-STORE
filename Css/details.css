@@ -1,0 +1,83 @@
+div [id='single_product']{
+	margin: 0;
+	padding-top: 0;
+	font-family: sans-serif;
+	background: #fff;
+
+}
+
+div[id='col1']{
+
+
+	width: 700px;
+	height: px;
+	
+	padding:20px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+
+}
+
+div[id='col1']:hover
+{
+box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+div[id='content'] {
+	padding-left: 50px;
+}
+
+h1{
+	margin: 0;
+	padding-left: 0;
+	color: #ff005c;
+}
+
+p[id='price']{
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+button{
+	background-color: #009688;
+	padding: 0.5em 1.5em;
+	font-size:1.3em;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 1.8em 1.5em 1.5em 0;  
+	cursor: pointer;
+	transition:transform 0.2s,box-shadow 0.1s;
+
+}
+button:hover {
+	transform: translateY(-5px);
+	box-shadow:0 5px 5px #00000040;
+}
+
+
+h2{
+	padding-top: 20px; 
+}
+
+p{
+	
+padding: 5px;
+	color: #4c4a37;
+ font-family:'Source Sans Pro',sans-serif;
+ font-size: 18px;
+ line-height: 32px;
+ margin:0 0 24;
+
+}
+
+
+
+
+
+

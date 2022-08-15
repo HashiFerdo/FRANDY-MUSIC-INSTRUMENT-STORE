@@ -1,0 +1,59 @@
+/*ul*/
+
+* {
+    margin-left: 0%;
+}
+
+.clearfix {
+    overflow: auto
+}
+
+table {
+    float: left;
+}
+
+ul {
+    height: 520px;
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 0;
+    width: 300px;
+    float: left;
+    margin: 100px 0 0 0;
+}
+
+li {
+    width: 275px;
+    padding-left: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    /*background:transparent;*/
+    background: rgba(0, 128, 0, 0.3);
+    margin-left: 0%;
+}
+
+.active {
+    color: rgb(224, 11, 11);
+    width: 300px;
+}
+
+li a:hover:not(.active) {
+    color: rgb(218, 210, 210);
+}
+
+li a {
+    color: rgb(17, 16, 16);
+    padding: 20px 16px 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 300px;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    color: rgb(218, 210, 210);
+}
